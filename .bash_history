@@ -497,3 +497,20 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ls
 docker ps
+ls
+[200~sudo du -sh /tmp/*
+sudo du -sh /tmp/*
+sudo rm -rf /tmp/*
+sudo yum clean all
+mount | grep /tmp
+sudo mount -o remount,size=2G /tmp
+tmpfs /tmp tmpfs defaults,size=2G 0 0
+sudo tmpfs /tmp tmpfs defaults,size=2G 0 0
+sudo systemctl restart jenkins
+ps aux | grep jenkins
+sudo usermod -aG docker jenkins
+sudo systemctl restart docker
+sudo systemctl restart jenkins
+sudo su - jenkins
+docker ps
+docker images
