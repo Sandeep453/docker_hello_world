@@ -423,3 +423,77 @@ docker ps
 docker run -it --rm   -p 3000:3000   -e SECRET_KEY_BASE=your_key_here   -v $(pwd):/rails   helloworld_ruby   bundle exec rails server -b 0.0.0.0
 sudo docker run -it --rm   -p 3000:3000   -e SECRET_KEY_BASE=your_key_here   -v $(pwd):/rails   helloworld_ruby   bundle exec rails server -b 0.0.0.0
 exit
+ls
+git add .
+git status
+git push https://github.com/Sandeep453/helloworld-ruby.git master:main
+git push https://github.com/Sandeep453/helloworld-ruby.git master
+git pull origin master --allow-unrelated-histories
+git push origin master
+git add '
+
+x
+git add .
+git push https://github.com/Sandeep453/docker_hello_world.git main
+git push https://github.com/Sandeep453/docker_hello_world.git master:main
+exit
+rails secret
+ls
+docker ps
+docker exec -it 1b8bdc5b0e61 bash
+ls
+git init
+git add .
+git push https://github.com/Sandeep453/helloworld-ruby.git
+git push https://github.com/Sandeep453/helloworld-ruby.git -u origin main
+git add .
+git status
+git commit -m "modified:   helloworld-ruby "
+git status
+git push -u origin main
+git logs
+git log
+git push -u origin master
+sudo git push -u origin master
+sudo git push -u origin main
+git status
+git add .
+git status
+git commit -m "helowworld ruby"
+git branch
+git push https://github.com/Sandeep453/helloworld-ruby.git master:main
+git push -u origin master:main
+git push https://github.com/Sandeep453/helloworld-ruby.git master:main
+git add .
+git status
+git push https://github.com/Sandeep453/helloworld-ruby.git master:main
+sudo git push https://github.com/Sandeep453/helloworld-ruby.git master:main
+git push https://Sandeep453:ghp_AbCdEf1234567890EXAMPLETOKEN@github.com/Sandeep453/helloworld-ruby.git master:main
+sudo git push https://github.com/Sandeep453/helloworld-ruby.git master:main
+ls
+docker ps
+# 1. Update system packages
+sudo yum update -y
+# 2. Install Java (Jenkins requires Java 11 or 17+)
+sudo amazon-linux-extras enable corretto17
+sudo yum install java-17-amazon-corretto -y
+# 3. Add Jenkins repo
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+# 4. Install Jenkins
+sudo yum install jenkins -y
+# 5. Start Jenkins service
+sudo systemctl start jenkins
+# 6. Enable Jenkins to start on boot
+sudo systemctl enable jenkins
+# 7. Allow port 8080 in EC2 Security Group
+# (Go to AWS Console → EC2 → Security Groups → Inbound Rules → Add rule for TCP 8080 from your IP or 0.0.0.0/0)
+# 8. Check Jenkins status
+sudo systemctl status jenkins
+# 9. Get the initial admin password
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+/var/lib/jenkins/secrets/initialAdminPassword
+cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ls
+docker ps
