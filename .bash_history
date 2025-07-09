@@ -514,3 +514,40 @@ sudo systemctl restart jenkins
 sudo su - jenkins
 docker ps
 docker images
+sudo systemctl status jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+sudo vi /etc/sysconfig/jenkins
+sudo netstat -tuln | grep 8080
+sudo systemctl restart jenkins
+sudo systemctl status jenkins
+sudo netstat -tulnp | grep -E "8080|3000"
+curl http://checkip.amazonaws.com
+df -h /tmp
+sudo du -sh /tmp/*
+sudo rm -rf /tmp/*
+free -h
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+echo '/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
+sudo systemctl restart jenkins
+sudo rm -rf /tmp/*
+df -h /tmp
+sudo du -sh /tmp/*
+free -h
+sudo mkdir /opt/jenkins-temp
+sudo chmod 1777 /opt/jenkins-temp
+sudo vi /etc/sysconfig/jenkins
+sudo nano /etc/sysconfig/jenkins
+sudo systemctl restart jenkins
+sudo du -sh /tmp/*
+sudo rm -rf /tmp/*
+sudo find /tmp -type f -atime +2 -delete
+mount | grep /tmp
+sudo mount -o remount,size=2G /tmp
+tmpfs /tmp tmpfs defaults,size=2G 0 0
+sudo cp /etc/fstab /etc/fstab.bak
+sudo nano /etc/fstab
+sudo reboot
